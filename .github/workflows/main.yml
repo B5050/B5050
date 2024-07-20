@@ -1,0 +1,111 @@
+html
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gasolinera Gulf - Ciales</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+        .header {
+            background-color: #005DAA;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+        }
+        .nav {
+            background-color: #003366;
+            color: white;
+            padding: 0.5rem;
+            text-align: center;
+        }
+        .nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 1rem;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 1rem;
+        }
+        .card {
+            background-color: white;
+            border-radius: 10px;
+            padding: 1rem;
+            margin-bottom: 1rem;
+        }
+        .fuel-prices {
+            display: flex;
+            justify-content: space-around;
+        }
+        .products {
+            display: flex;
+            justify-content: space-between;
+        }
+        .product {
+            flex: 1;
+            margin: 0 0.5rem;
+        }
+        .offer {
+            background-color: #FF6200;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+            border-radius: 10px;
+        }
+        .location-btn {
+            background-color: #FF6200;
+            color: white;
+            border: none;
+            padding: 0.5rem 1rem;
+            border-radius: 50%;
+            cursor: pointer;
+            position: fixed;
+            bottom: 1rem;
+            right: 1rem;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <h1>Gulf</h1>
+    </header>
+    <nav class="nav">
+        <a href="#inicio">Inicio</a>
+        <a href="#productos">Productos</a>
+        <a href="#servicios">Servicios</a>
+        <a href="#contacto">Contacto</a>
+    </nav>
+    <div class="container">
+        <div class="card">
+            <h2>Precios de Combustible</h2>
+            <div class="fuel-prices">
+                <p>Regular: $0.00</p>
+                <p>Premium: $0.00</p>
+            </div>
+        </div>
+        <div class="products">
+            <div class="card product">
+                <h3>Aceite Motor</h3>
+                <p>Descripción del producto...</p>
+            </div>
+            <div class="card product">
+                <h3>Snacks</h3>
+                <p>Descripción del producto...</p>
+            </div>
+        </div>
+        <div class="offer">
+            <h2>¡Oferta Especial!</h2>
+            <p>2x1 en Lavado de Auto</p>
+        </div>
+    </div>
+    <button class="location-btn">Ubicación</button>
+</body>
+</html>
+``` 
