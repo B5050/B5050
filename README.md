@@ -1,5 +1,5 @@
-- 👋 Hi, I’m @B5050 and I am Puerto Rican man learning to program and build tools to improve My quality of life 
-- 👀 I’m interested in health and practical aplicattions of science
+- 👋 Hi, I’m @B5050 and I am a Puerto Rican learning to program and build tools to improve my quality of life 
+- 👀 I’m interested in health and practical applications of science
 - 🌱 I’m currently learning C++
 - 💞️ I’m looking to collaborate on research and other learning opportunities
 - 📫 How to reach me bryannievesdejesu4@gmail.com
